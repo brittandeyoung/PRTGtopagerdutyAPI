@@ -1,5 +1,5 @@
 # PRTGtopagerdutyAPI
-This is a Powershell script that will allow PRTG notifications to be sent to pagerduty via the events V2 API and auto resolve incidents that resolve within PRTG. I created this script because there is no native integration between PRTG and pagerduty except email.
+This is ment to be the simplest Powershell script that will allow PRTG notifications to be sent to pagerduty via the events V2 API and auto resolve incidents that resolve within PRTG. I created this script because there is no native integration between PRTG and pagerduty except email. Hopefully this helps others as well =).
 
 ## Setup Instructions
 ### Powershell
