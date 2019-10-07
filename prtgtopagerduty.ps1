@@ -99,4 +99,7 @@ links = @(@{href = "$($LinkDevice)"; text = "$($LinkDevice)"});
 })
 $API_URL = "https://events.pagerduty.com/v2/enqueue"
 
+# Enable TLS 1.2
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+
 Invoke-WebRequest -Uri $API_URL -Method POST -Body $postPagerDuty -ContentType "application/json"
